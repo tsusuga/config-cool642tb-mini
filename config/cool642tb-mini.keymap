@@ -19,12 +19,12 @@
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <12 11>;
+            key-positions = <12 13>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <10 11>;
+            key-positions = <11 12>;
         };
     };
 
