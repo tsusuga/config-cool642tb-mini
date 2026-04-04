@@ -109,12 +109,12 @@
             >;
         };
 
-        layer_7 {
+        UPPER_CASE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp LS(Q)  &kp LS(L)  &kp LS(U)  &trans     &trans                             &kp LS(F)      &kp LS(W)  &kp LS(R)  &kp LS(Y)  &kp LS(P)
+&kp LS(E)  &kp LS(I)  &kp LS(A)  &kp LS(O)  &trans  &trans      &trans         &kp LS(K)      &kp LS(T)  &kp LS(N)  &kp LS(S)  &kp LS(H)
+&kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &trans  &trans      &trans         &kp LS(G)      &kp LS(D)  &kp LS(M)  &kp LS(J)  &kp LS(B)
+&trans     &trans     &trans     &trans     &trans  &trans      &kp LS(ENTER)  &kp BACKSPACE                                   &trans
             >;
         };
     };
