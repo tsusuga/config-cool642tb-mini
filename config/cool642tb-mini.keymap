@@ -14,13 +14,10 @@
     quick-tap-ms = <0>;
 };
 
-// &trackball_listener {
-//     compatible = "zmk,input-listener";
-//     snipe {
-//         layers = <3>;
-//         input-processors = <&zip_xy_scaler 1 2>;
-//      };
-//   };
+&trackball_listener {
+   input-processors = <&zip_xy_scaler 1 2>;
+   layers = <3>;
+ };
 
 / {
     combos {
